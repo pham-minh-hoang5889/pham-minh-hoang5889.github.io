@@ -1,0 +1,74 @@
+body{
+	background: #FCECD8 url(../img/bg-body2.jpg) center top repeat-x;
+	
+}
+.nav ul li {
+	display: inline;
+	margin-right: 10px;
+	}
+.title h1{
+	text-align: center;
+	padding: 30px;
+}
+a{
+	text-decoration: none;
+}
+.content{
+	width: 1550px;
+	height: 550px;
+}
+
+.content ul, .footer ul{
+	list-style-type: none;
+}
+
+.content-top{
+	float: left;
+	height: 500px;
+}
+.content-top a:link {
+	color: blue;
+}
+.content-top a:visited {
+	color: grey;
+}
+.content-top a:hover {
+	color: red;
+}
+.content-top a:active {
+	color: black;
+}
+.content-bottom a:hover img{
+	opacity: 0.5;
+}
+.content-side{
+	clear: both;
+}
+
+.content-bottom h3{
+	text-align: center;
+}
+
+.content-bottom ul li{
+	float: right;
+	margin: 5px;
+}
+.content-bottom ul li img{
+	border-radius: 5px;
+}
+.footer{
+	background:grey;
+}
+.footer ul li{
+	float: left;
+}
+.footer{height: 150px;}
+
+.footer ul {
+	clear: both;
+	display: inline;
+
+}
+.footer ul li{
+	padding-left: 10px;
+}
